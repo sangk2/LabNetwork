@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/tvTitle"
+        android:text="Lab Android Networking"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/btnStyle"
+        android:text="Lab 1 - Thread"
+        android:id="@+id/btnLab1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/btnStyle"
+        android:text="Lab 2"
+        android:id="@+id/btnLab2"/>
+
+</LinearLayout>
