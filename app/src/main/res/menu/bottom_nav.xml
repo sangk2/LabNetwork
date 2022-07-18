@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bai1"
+        android:icon="@android:drawable/sym_contact_card"
+        android:title="Bài 1" />
+    <item
+        android:id="@+id/bai2"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Bài 2" />
+    <item
+        android:id="@+id/bai3"
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:title="Bài 3" />
+    <item
+        android:id="@+id/bai4"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Bài 4" />
+
+
+</menu>

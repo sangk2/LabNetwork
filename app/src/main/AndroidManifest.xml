@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabNetwork">
         <activity
+            android:name=".lab3.Lab3Activity"
+            android:exported="false" />
+        <activity
             android:name=".lab2.Lab2Activity"
             android:exported="false" />
         <activity

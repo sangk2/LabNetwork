@@ -3,11 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable-v24/bg_nav_bottom.xml" value="0.1" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable-v24/bg_tab.xml" value="0.1" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable/border.xml" value="0.177" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab1.xml" value="0.25416666666666665" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab2.xml" value="0.25416666666666665" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab3.xml" value="0.1" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/contact_detail.xml" value="0.2323076923076923" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/contact_item.xml" value="0.2323076923076923" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b1__contact.xml" value="0.13425925925925927" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b2__volley.xml" value="0.22592592592592592" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b3__retrofit.xml" value="0.13703703703703704" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b4_art_retrofit.xml" value="0.10925925925925926" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/list_item.xml" value="0.264" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/product_item.xml" value="0.4" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/user_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/menu/bottom_nav.xml" value="0.2323076923076923" />
       </map>
     </option>
   </component>

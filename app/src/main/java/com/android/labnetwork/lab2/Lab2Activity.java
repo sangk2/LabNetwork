@@ -25,22 +25,22 @@ public class Lab2Activity extends AppCompatActivity {
     private EditText edName, edScore;
     private Button btnKQ1;
     private TextView tvKQ1;
-    public static final String urlServer1 = "http://10.28.0.194/android-network/student_Get.php";
+    public static final String urlServer1 = "http://10.28.0.194/android-network/lab2/student_Get.php";
 
     private EditText edCD, edCR;
     private Button btnKQ2;
     private TextView tvKQ2;
-    public static final String urlServer2 = "http://10.28.0.194/android-network/cv_dt_Hcn_POST.php";
+    public static final String urlServer2 = "http://10.28.0.194/android-network/lab2/cv_dt_Hcn_POST.php";
 
     private EditText edCanh;
     private Button btnKQ3;
     private TextView tvKQ3;
-    public static final String urlServer3 = "http://10.28.0.194/android-network/thetich_KLP_POST.php";
+    public static final String urlServer3 = "http://10.28.0.194/android-network/lab2/thetich_KLP_POST.php";
 
     private EditText eda, edb, edc;
     private Button btnKQ4;
     private TextView tvKQ4;
-    public static final String urlServer4 = "http://10.28.0.194/android-network/giaiPTbac2.php";
+    public static final String urlServer4 = "http://10.28.0.194/android-network/lab2/giaiPTbac2.php";
 
 
     @Override

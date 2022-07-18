@@ -23,5 +23,11 @@
         style="@style/btnStyle"
         android:text="Lab 2"
         android:id="@+id/btnLab2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/btnStyle"
+        android:text="Lab 3"
+        android:id="@+id/btnLab3"/>
 
 </LinearLayout>
