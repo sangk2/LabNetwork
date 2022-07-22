@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.android.labnetwork.IPwifi;
 import com.android.labnetwork.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -62,9 +63,10 @@ public class B3_RetrofitFragment extends Fragment {
     // Lấy dữ liệu từ Server = Retrofit
 //    http://192.168.1.5/android-network/lab3/user_data.json
     public void getJsonData(){
+        String ip = new IPwifi().ip;
         // 1.Tạo đối tượng Retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://172.16.16.202/android-network/lab3/")
+                .baseUrl( ip + "/android-network/lab3/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         // 2.Lấy request

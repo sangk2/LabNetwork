@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabNetwork">
         <activity
+            android:name=".lab4.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lab4.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lab4.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lab4.Lab4Activity"
+            android:exported="false" />
+        <activity
             android:name=".lab3.Lab3Activity"
             android:exported="false" />
         <activity

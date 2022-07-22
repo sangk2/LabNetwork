@@ -8,13 +8,18 @@
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable/border.xml" value="0.177" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab1.xml" value="0.25416666666666665" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab1.xml" value="0.2054263565891473" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab2.xml" value="0.25416666666666665" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab3.xml" value="0.1" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_lab4.xml" value="0.12685185185185185" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_login.xml" value="0.2409090909090909" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_reset_password.xml" value="0.19814814814814816" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/contact_detail.xml" value="0.2323076923076923" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/contact_item.xml" value="0.2323076923076923" />
+        <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/dialog_change_password.xml" value="0.13148148148148148" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b1__contact.xml" value="0.13425925925925927" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b2__volley.xml" value="0.22592592592592592" />
         <entry key="..\:/TEP CUA BO 4/Android/Code/AndroidNetwork/LabNetwork/app/src/main/res/layout/fragment_b3__retrofit.xml" value="0.13703703703703704" />

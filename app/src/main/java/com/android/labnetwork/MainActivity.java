@@ -11,10 +11,12 @@ import com.android.labnetwork.lab1.Lab1Activity;
 import com.android.labnetwork.lab1.SplashScreenActivity;
 import com.android.labnetwork.lab2.Lab2Activity;
 import com.android.labnetwork.lab3.Lab3Activity;
+import com.android.labnetwork.lab4.Lab4Activity;
+import com.android.labnetwork.lab4.LoginActivity;
 
 public class MainActivity extends AppCompatActivity{
 
-    private Button btnLab1, btnLab2, btnLab3;
+    private Button btnLab1, btnLab2, btnLab3, btnLab4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,10 @@ public class MainActivity extends AppCompatActivity{
         btnLab3 = findViewById(R.id.btnLab3);
         btnLab3.setOnClickListener(view -> {
             startActivity(new Intent(MainActivity.this, Lab3Activity.class));
+        });
+        btnLab4 = findViewById(R.id.btnLab4);
+        btnLab4.setOnClickListener(view -> {
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
         });
 
     }

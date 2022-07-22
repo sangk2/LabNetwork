@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.android.labnetwork.IPwifi;
 import com.android.labnetwork.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.squareup.picasso.Picasso;
@@ -59,8 +60,9 @@ public class B4_artRetrofitFragment extends Fragment {
 
     }
     private void getJsonData() {
+        String ip = new IPwifi().ip;
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://172.16.16.202/android-network/lab3/")
+                .baseUrl( ip+ "/android-network/lab3/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

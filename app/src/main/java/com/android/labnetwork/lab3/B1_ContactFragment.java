@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.android.labnetwork.IPwifi;
 import com.android.labnetwork.R;
 
 import org.json.JSONArray;
@@ -37,7 +38,7 @@ public class B1_ContactFragment extends Fragment {
 
     ProgressDialog dialog;
     RecyclerView rvContact;
-    String urlLink = "http://172.16.16.202/android-network/lab3/contact.php";
+    String urlLink = (new IPwifi().ip) + "/android-network/lab3/contact.php";
 
     ArrayList<Contact> contactArrayList;
 

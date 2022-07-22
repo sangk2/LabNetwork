@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.labnetwork.IPwifi;
 import com.android.labnetwork.R;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -31,8 +32,10 @@ import org.json.JSONObject;
 
 public class B2_VolleyFragment extends Fragment {
 
-    private String urlJsonObject = "http://172.16.16.202/android-network/lab3/jsonObject.json";
-    private String urlJsonArray = "http://172.16.16.202/android-network/lab3/jsonArray.json";
+    String ip = new IPwifi().ip;
+
+    private String urlJsonObject = ip + "/android-network/lab3/jsonObject.json";
+    private String urlJsonArray = ip + "/android-network/lab3/jsonArray.json";
 
     private Button btnJsonObj, btnJsonArray;
     private TextView tvResponse;
@@ -55,7 +58,8 @@ public class B2_VolleyFragment extends Fragment {
 
         dialog = new ProgressDialog(getContext());
         dialog.setMessage("Vui lòng đợi ...");
-        dialog.setCancelable(false);
+        dialog.setIndeterminate(false);
+        dialog.setCancelable(true);
 
         btnJsonObj.setOnClickListener(view -> {
             getJsonObject();
